@@ -9,8 +9,17 @@
 <title>Ajax Gson Project</title>
 </head>
 <body>
-<h1>Ajax Gson Project</h1>
+<h1>Practice 3. Deserialization from an Json object with Gson</h1>
+<h3>Get a Java object from JSON string</h3>
 
+<p>
+    <label for="txtJSONString">Write a JSON string</label>
+    <input type="text" id="txtJSONString" name="txtJSONString" placeholder="{IdProduct:value,ProductName:value,ProductPrice}" size="50">
+</p>
+<p>
+    <input type="button" value="Deserialization" id="btnDeserialization" name="btnDeserialization" >
+</p>
+<div id="answer"></div>
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/practica3gson.js"></script>

@@ -42,8 +42,8 @@ public class Practica2gsonServlet extends HttpServlet {
 		//Gson object creation
 		Gson objGson=new Gson();
 		
-		String json=objGson.toJson(objProduct);
-		
+		String json = objGson.toJson(objProduct);
+		//String json2 =objGson.
 		output.println("Id"+objProduct.getIdProduct());
 		output.println("Name"+objProduct.getProductName());
 		output.println("Price"+objProduct.getProductPrice());

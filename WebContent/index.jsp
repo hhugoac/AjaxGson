@@ -14,7 +14,7 @@
 <ul>
     <li><a href="practica1gson.jsp">Practice 1. Send info from a form to a  Servlet</a></li>
     <li><a href="practica2gson.jsp">Practice 2.  Json object serialization </a></li>
-    <li><a href="practica3gson.jsp">Practice 3. </a></li>
+    <li><a href="practica3gson.jsp">Practice 3. Deserialization from an Json object with Gson</a></li>
     <li><a href="practica4gson.jsp">Practice 4. </a></li>
 </ul>
 
